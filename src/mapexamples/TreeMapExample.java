@@ -9,7 +9,6 @@ public class TreeMapExample {
     public static void main(String[] args) {
         TreeMap<Integer,String> map1 = new TreeMap<>();
 
-
         // adding
         map1.put(105,"Mango");
         map1.put(103,"Guava");
