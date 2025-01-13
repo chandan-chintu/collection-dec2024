@@ -21,9 +21,9 @@ public class LinkedHashMapExample {
         map1.put(null,"Orange");
         map1.put(101,"Watermelon");// recent value is taken
         map1.put(null,null);
-
+        System.out.println("added code");
         System.out.println("map1 is : "+map1);
-
+        System.out.println("map1 is : "+map1);
         System.out.println("get element at 102 : "+map1.get(102));
 
         map1.remove(null);
@@ -37,6 +37,5 @@ public class LinkedHashMapExample {
         for (Map.Entry m1: map1.entrySet()){
             System.out.println(m1);
         }
-
     }
 }
