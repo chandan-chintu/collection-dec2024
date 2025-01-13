@@ -8,6 +8,10 @@ public class LinkedHashMapExample {
     public static void main(String[] args) {
         LinkedHashMap<Integer,String> map1 = new LinkedHashMap<>();
 
+        // add some extra lines
+        System.out.println("Adding lined to test");
+        // add some extra lines
+        System.out.println("Adding lined to test");
         // adding
         map1.put(101,"Mango");
         map1.put(102,"Guava");
@@ -29,7 +33,6 @@ public class LinkedHashMapExample {
         for (Map.Entry m1: map1.entrySet()){
             System.out.println(m1.getKey()+"-------"+m1.getValue());
         }
-
         System.out.println("foreach-2 for map traversal");
         for (Map.Entry m1: map1.entrySet()){
             System.out.println(m1);
