@@ -23,7 +23,7 @@ public class LinkedHashMapExample {
         map1.put(null,null);
         System.out.println("added code");
         System.out.println("map1 is : "+map1);
-
+        System.out.println("map1 is : "+map1);
         System.out.println("get element at 102 : "+map1.get(102));
 
         map1.remove(null);
